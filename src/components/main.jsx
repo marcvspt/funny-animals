@@ -1,4 +1,4 @@
-import '../assets/index.css'
+import '../assets/css/index.css'
 import UserPrompt from './userPrompt'
 
 function Main() {
