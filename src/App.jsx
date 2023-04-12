@@ -1,13 +1,9 @@
-import './assets/index.css'
-import UserPrompt from './userPrompt'
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './components/main'
 
-function App() {
-    return(
-        <main>
-            <h1 className="app-title">Funny facts about animals</h1>
-            <UserPrompt />
-        </main>
-    )
-}
-
-export default App
+ReactDOM.createRoot(document.getElementById('root')).render(
+    <React.StrictMode>
+        <App />
+    </React.StrictMode>,
+)

@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { sendPrompt } from "./logic";
-import './assets/index.css'
+import { sendPrompt } from "../logic";
+import '../assets/index.css'
 
 function UserPrompt() {
     const [value, setValue] = useState('');
