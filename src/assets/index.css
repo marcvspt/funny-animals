@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,700,900&amp;display=swap');
+
+
+.prompt-text, .prompt-button, .prompt-data, .app-title {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.prompt-text, .prompt-button {
+    display: block;
+    width: 20%;
+}
+
+.app-title, .prompt-data {
+    color: #333;
+}
+
+/* <h1> */
+.app-title {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+/* <input> */
+.prompt-text {
+    color: #233;
+    outline: none;
+    resize: none;
+    margin-bottom: 10px;
+}
+
+/* <button> */
+.prompt-button {
+    color: #fff;
+    background-color: #199;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .prompt-text, .prompt-button, .prompt-data {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
