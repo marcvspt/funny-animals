@@ -14,6 +14,7 @@
 .prompt-text, .prompt-button {
     display: block;
     width: 20%;
+    border-radius: 5px;
 }
 
 .app-title, .prompt-data {
