@@ -1,5 +1,5 @@
 const COHERE_API_GENERATE_URL = 'https://api.cohere.ai/v1/generate';
-const COHERE_API_KEY = 'TkBvbtNu2KAvuijRMn7V4LZnme0fMITmHcfsS4Bh';
+const COHERE_API_KEY = ''; // PUT YOUR API KEY HERE -> https://dashboard.cohere.ai/api-keys
 const COHERE_HEADERS = {
     'Accept': 'application/json',
     'Content-Type': 'application/json',
