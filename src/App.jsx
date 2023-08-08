@@ -1,9 +1,10 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import Main from './components/main'
+import { Prompt } from './components/Prompt.jsx'
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-    <React.StrictMode>
-        <Main />
-    </React.StrictMode>,
-)
+export function App () {
+  return (
+    <>
+      <h1 style={{ textAlign: 'center' }}>Fun facts about animals</h1>
+      <Prompt />
+    </>
+  )
+}
